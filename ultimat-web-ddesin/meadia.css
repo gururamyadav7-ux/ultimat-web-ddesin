@@ -1,0 +1,107 @@
+@media screen and (min-width:200px)and (max-width:700px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        text-decoration: none;
+        border-style: none;
+    }
+
+    :root {
+        --primary: #030a16;
+        --secondary: #323946;
+        --disabled: #fff3;
+        --green: #7cf03d;
+        --white: #fff;
+    }
+
+    body,
+    html {
+        min-height: 100dvh;
+        overflow-x: hidden;
+
+    }
+
+    .main-continar {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .continar {
+        width: 100%;
+        height: 5rem;
+        padding: 1rem 1rem;
+        justify-content: space-between;
+        background-color: rgb(243, 238, 243);
+        box-shadow: 0 0 5px;
+        position:sticky;
+    }
+
+    .logo {
+        padding: 1rem;
+        margin-left: 1rem;
+        width: 16rem;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1rem;
+        letter-spacing: 3px;
+        background-color: rgb(255, 255,255);
+        box-shadow: 0 0 2px rgb(0, 0, 0);
+    
+    }
+    /*toggle section*/
+    .li-icon-home{
+        position: absolute;
+        top:100%;
+        width: 100%;;
+        height: 91vh;
+        background-color: #323946;
+        flex-direction: column;
+        left: -800px;
+        transition: 0.3s ease-in;
+
+    }
+
+    .li-icon-home a {
+        width: 50%;
+        height: 3rem;
+        border: 2px solid white;
+        border-radius: 5px;
+        text-align: center;
+        padding:0.8rem;
+        color: white;
+
+    }
+
+    .li-icon-home a:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+
+    }
+    
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.3em;
+        height: 1.3rem;
+        padding: 0.7rem;
+        border: 2px solid black;
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    .fa-bars{
+        font-size: 1rem;
+        font-weight: bolder;
+        display: block;
+    }
+
+    .fa-xmark{
+        font-size: 1rem;
+        font-weight: bolder;
+        display: none;
+    }
+}

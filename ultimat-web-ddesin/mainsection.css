@@ -1,0 +1,135 @@
+
+/* main secton is start */
+
+.dital-continar{
+    width: 100vw;
+    height: 100vh;
+    padding: 4rem;
+    justify-content: space-between;
+}
+
+.left-continar{
+    width: 48%;
+    height: 100%;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+
+.dital-me{
+    font-size: 3rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: 600;
+
+
+}
+
+.dital-para{
+    text-align: left;
+    font-size: 1rem;
+    color: #5f5e61;
+    box-shadow: 0 0 2px black;
+    margin-bottom: 4rem;
+    line-height: 1.4;
+    padding: 1rem;
+    letter-spacing: 2px;
+}
+
+.btn-hello{
+    width: 8rem;
+    height: 3.5rem;
+    padding: 0.8rem;
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/* left continar start*/
+
+.right-continar{
+    width: 48%;
+    height: 100%;
+    justify-content: center;
+}
+
+.main-img {
+    width: 20rem;
+    height: 23rem;
+    border: 2px solid black;
+    border-radius: 50%;
+
+    box-shadow: 0 0 5rem rgb(119, 119, 119);
+}
+
+.main-img img{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+/*main contant strat*/
+
+.main-contant{
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.left-2-continar{
+    width: 48%;
+    height: 100%;
+    justify-content: center;
+}
+
+.right-2-continar{
+    padding: 2rem;
+
+    width: 48%;
+    height: 100%;
+    box-shadow: 0 0 5px black;
+
+
+}
+
+.main2-img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px black;
+}
+
+.main2-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.project{
+    font-size: 2rem;
+
+}
+
+.cv-btn{
+    width: 10rem;
+    height: 3.5rem;
+    padding: 0.8rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    border-radius: 10px;
+    font-weight: 500;
+    box-shadow: 0 0 2px black;
+    margin-left: 1rem;
+}
+
+.cv-btn:hover{
+    background-color: rgb(188, 188, 255);
+}

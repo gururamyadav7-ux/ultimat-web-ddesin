@@ -1,0 +1,91 @@
+.soceal-meadia-contina{
+    width: 100vw;
+    height: auto;
+
+    padding: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.div-icon{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    border: 1px solid black;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    
+}
+/*hover */
+
+.div-icon:hover{
+    box-shadow: 0 0 5px;
+    border: 2px solid black;
+}
+
+.div-icon h3{
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.svg{
+    width: 4rem;
+    height: 4rem;
+    padding: 0.8rem;
+    border: 1px solid black;
+
+}
+
+.svg i{
+    justify-content: center;
+    font-size: 2rem;
+    color: orangered;
+}
+
+
+.div-icon p {
+    text-align: left;
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color:rgb(100, 100, 100);
+}
+
+.div-icon .btn-click{
+    text-decoration: none;
+    display: block;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: 0 0 2px;
+    color: black;
+    border-radius: 10px;
+}
+
+.div-icon a:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.div-icon a :active{
+    background-color: blue;
+    color: white;
+}
+
+
+/*footer */
+
+.img-dital{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
